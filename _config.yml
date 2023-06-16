@@ -31,6 +31,7 @@ search: true
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.24.0
+asset_url: /assets
 
 permalink: /:categories/:title/
 paginate: 5
@@ -48,22 +49,16 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/favicon.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Junhee Yoo"
+  avatar : "/assets/images/albatross.jpeg"
+  bio    : "I'm not what I think I am."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/junhee-yoo"
 
 defaults:
   # _posts
